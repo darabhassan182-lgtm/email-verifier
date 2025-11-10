@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "db:push": "prisma db push"
     "start": "node server.js"
   },
   "dependencies": {
@@ -11,4 +12,3 @@
   }
 }
 
-"db:push": "prisma db push"
