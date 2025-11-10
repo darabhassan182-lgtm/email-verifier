@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Email Verifier App</title>
+</head>
+<body>
+    <h1>Email Verifier App</h1>
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+    <form method="post" enctype="multipart/form-data">
+        <label for="file">Upload CSV:</label>
+        <input type="file" id="file" name="file" accept=".csv">
+        <input type="submit" value="Verify Emails">
+    </form>
+</body>
+</html>
