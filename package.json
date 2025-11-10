@@ -10,3 +10,5 @@
     "cors": "^2.8.5"
   }
 }
+
+"db:push": "prisma db push"
