@@ -4,8 +4,8 @@
   "type": "module",
   "scripts": {
     "db:push": "prisma db push",
-    "migrate:deploy": "prisma migrate deploy",  // For production
-    "generate": "prisma generate",  // Generate Prisma Client
+    "migrate:deploy": "prisma migrate deploy", 
+    "generate": "prisma generate", 
     "start": "node server.js"
   },
   "dependencies": {
